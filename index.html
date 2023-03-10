@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="./assets/img/logo/fontawesome-free-6.3.0-web/css/all.css"
@@ -48,11 +49,11 @@
               <li>
                 <i class="fa-regular fa-compass nav-icon"></i>
 
-                <a href="./diadanh.html">Places</a>
+                <a href="#place">Places</a>
               </li>
               <li>
                 <i class="fa-solid fa-bowl-food nav-icon"></i>
-                <a href="./amthuc.html">Food</a>
+                <a href="#food">Food</a>
               </li>
               <li>
                 <i class="fa-solid fa-address-book nav-icon"></i>
@@ -127,74 +128,380 @@
           </div>
         </div>
       </div>
-    </main>
-    <div id="about-Modal" class="about-modal">
-      <!-- Modal content -->
-      <div class="about-modal-content">
-        <div class="modal-left">
-          <header class="modal-header">
-            <div class="avatar">
-              <div class="avatar-wrap">
-                <img src="./assets/img/avatar.png" alt="" />
+      <div id="about-Modal" class="about-modal">
+        <!-- Modal content -->
+        <div class="about-modal-content">
+          <div class="modal-left">
+            <header class="modal-header">
+              <div class="avatar">
+                <div class="avatar-wrap">
+                  <img src="./assets/img/avatar.png" alt="" />
+                </div>
+              </div>
+              <h2 class="name">Cao Nhật Linh</h2>
+              <p class="desc">UX/UI</p>
+              <div class="socials">
+                <ul class="socials-list">
+                  <li class="social-item">
+                    <a href="">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+
+                  <li class="social-item">
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+                  <li class="social-item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </header>
+          </div>
+          <div class="modal-right">
+            <i class="about-close fa-solid fa-xmark"></i>
+            <div class="info">
+              <div class="title">
+                <i class="fa-solid fa-address-card"></i>
+                <span class="title-info">Thông tin của tôi</span>
+              </div>
+              <hr />
+              <div class="info-content">
+                <span class="info__class"
+                  ><strong><i class="fa-solid fa-graduation-cap"></i> </strong
+                  >12DHTH17</span
+                >
+
+                <span class="info__adress"
+                  ><strong><i class="fa-solid fa-location-dot"></i> </strong>295
+                  Tây Thạnh, Tân Phú, HCM</span
+                >
+                <span class="info__adress"
+                  ><strong><i class="fa-solid fa-square-phone"></i> </strong
+                  >0386015537</span
+                >
+                <span class="info__school"
+                  ><strong><i class="fa-solid fa-school"></i> </strong>Trường
+                  Đại học Công nghiệp Thực phẩm TP.HCM (HUFI)
+                </span>
+                <span class="info__hobby"
+                  ><strong><i class="fa-solid fa-heart"></i> </strong>xem phim,
+                  nghe nhạc, game online, design web,....</span
+                >
               </div>
             </div>
-            <h2 class="name">Cao Nhật Linh</h2>
-            <p class="desc">UX/UI</p>
-            <div class="socials">
-              <ul class="socials-list">
-                <li class="social-item">
-                  <a href="">
-                    <i class="fa-brands fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </li>
-
-                <li class="social-item">
-                  <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li class="social-item">
-                  <a href=""><i class="fa-brands fa-twitter"></i></a>
-                </li>
-              </ul>
-            </div>
-          </header>
+          </div>
         </div>
-        <div class="modal-right">
-          <i class="about-close fa-solid fa-xmark"></i>
-          <div class="info">
-            <div class="title">
-              <i class="fa-solid fa-address-card"></i>
-              <span class="title-info">Thông tin của tôi</span>
-            </div>
-            <hr />
-            <div class="info-content">
-              <span class="info__class"
-                ><strong><i class="fa-solid fa-graduation-cap"></i> </strong
-                >12DHTH17</span
-              >
+      </div>
+      <div class="place" id="place">
+        <div class="content">
+          <div class="place-header">
+            <h2 class="title">Địa Danh ở Quảng Ngãi</h2>
+          </div>
+          <div class="container">
+            <input type="radio" name="slider" class="d-none" id="s1" checked />
+            <input type="radio" name="slider" class="d-none" id="s2" />
+            <input type="radio" name="slider" class="d-none" id="s3" />
+            <input type="radio" name="slider" class="d-none" id="s4" />
+            <input type="radio" name="slider" class="d-none" id="s5" />
 
-              <span class="info__adress"
-                ><strong><i class="fa-solid fa-location-dot"></i> </strong>295
-                Tây Thạnh, Tân Phú, HCM</span
-              >
-              <span class="info__adress"
-                ><strong><i class="fa-solid fa-square-phone"></i> </strong
-                >0386015537</span
-              >
-              <span class="info__school"
-                ><strong><i class="fa-solid fa-school"></i> </strong>Trường Đại
-                học Công nghiệp Thực phẩm TP.HCM (HUFI)
-              </span>
-              <span class="info__hobby"
-                ><strong><i class="fa-solid fa-heart"></i> </strong>xem phim,
-                nghe nhạc, game online, design web,....</span
-              >
+            <div class="cards">
+              <label for="s1" id="slide1">
+                <div class="card">
+                  <div class="image">
+                    <a class="disabled" href="./dia-danh/dia-danh1.html"
+                      ><img src="./dia-danh/img/nui-thien-an.jpg" alt=""
+                    /></a>
+                    <div class="dots">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="infos">
+                    <span class="name">Núi Thiên Ấn</span>
+                    <span class="lorem"
+                      >Là một ngọn núi từ lâu đã rất nổi tiếng với khung cảnh
+                      hùng vĩ và mang một giá trị lịch sử vô cùng lớn lao, Núi
+                      Thiên Ấn từ lâu đã trở thành một địa điểm thu hút rất
+                      nhiều khách du lịch tới tham quan bởi vẻ đẹp thơ mộng và
+                      dịu dàng mà nó đã mang lại.</span
+                    >
+                  </div>
+                  <a href="./dia-danh/dia-danh1.html" class="btn-contact"
+                    >Chi tiết</a
+                  >
+                </div>
+              </label>
+
+              <label for="s2" id="slide2">
+                <div class="card">
+                  <div class="image">
+                    <a href="./dia-danh/dia-danh2.html"
+                      ><img src="./dia-danh/img/bien-my-khe.jpg" alt=""
+                    /></a>
+                    <div class="dots">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="infos">
+                    <span class="name">Biển Mỹ Khê</span>
+                    <span class="lorem"
+                      >Bãi biển Mỹ Khê cũng không còn là cái tên lạ lẫm gì khi
+                      mà nơi đây từng liên tục xuất hiện “nhẵn mặt” trên các báo
+                      đài trong và ngoài nước với danh hiệu một trong số những
+                      bãi biển quyến rũ nhất hành tinh</span
+                    >
+                  </div>
+                  <a href="./dia-danh/dia-danh2.html" class="btn-contact"
+                    >Chi tiết</a
+                  >
+                </div>
+              </label>
+
+              <label for="s3" id="slide3">
+                <div class="card">
+                  <div class="image">
+                    <a href="./dia-danh/dia-danh3.html">
+                      <img src="./dia-danh/img/sa-huynh.jpg" alt=""
+                    /></a>
+                    <div class="dots">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="infos">
+                    <span class="name">Đồng muối Sa Huỳnh</span>
+                    <span class="lorem"
+                      >Nơi đây là vựa muối quan trọng của khu vực miền Trung,
+                      nghề làm muối ở Sa Huỳnh đã từng đi vào nhiều câu thơ, câu
+                      ca của Việt Nam.</span
+                    >
+                  </div>
+                  <a href="./dia-danh/dia-danh3.html" class="btn-contact"
+                    >Chi tiết</a
+                  >
+                </div>
+              </label>
+
+              <label for="s4" id="slide4">
+                <div class="card">
+                  <div class="image">
+                    <a href="./dia-danh/dia-danh4.html">
+                      <img src="./dia-danh/img/kon-chu-rang-.jpg" alt=""
+                    /></a>
+                    <div class="dots">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="infos">
+                    <span class="name">Kon Chư Răng</span>
+                    <span class="lorem"
+                      >Nơi đây đích thực là thiên đường cho những ai ham mê
+                      trekking bởi những khu rừng ở đây rất lý tưởng nhờ vào hệ
+                      sinh thái chuyển tiếp giữa vùng Đông và Tây của dãy Trường
+                      Sơn</span
+                    >
+                  </div>
+                  <a href="./dia-danh/dia-danh4.html" class="btn-contact"
+                    >Chi tiết</a
+                  >
+                </div>
+              </label>
+
+              <label for="s5" id="slide5">
+                <div class="card">
+                  <div class="image">
+                    <a href="./dia-danh/dia-danh5.html">
+                      <img src="./dia-danh/img/Dao-Ly-Son.jpg" alt=""
+                    /></a>
+                    <div class="dots">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="infos">
+                    <span class="name">Đảo Lý Sơn</span>
+                    <span class="lorem">
+                      Đảo Lý Sơn còn có một tên gọi khác là Cù Lao Ré, nhiều
+                      người có thể vẫn chưa biết điều này nhưng hòn đảo này vốn
+                      là một miệng núi lửa đã tắt, do đó vùng đất quanh đây vô
+                      cùng xanh tươi và xinh đẹp</span
+                    >
+                  </div>
+                  <a href="./dia-danh/dia-danh5.html" class="btn-contact"
+                    >Chi tiết</a
+                  >
+                </div>
+              </label>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="food" id="food">
+        <div class="content">
+          <div class="food-header">
+            <h2 class="title">Ẩm Thực Quảng Ngãi</h2>
+            <p class="desc">
+              Quảng Ngãi không chỉ được biết đến với nhiều danh lam thắng cảnh
+              đẹp, các di tích văn hóa lâu đời
+            </p>
+          </div>
+          <ul class="card">
+            <li class="card-item">
+              <a href="./dac-san/dac-san1.html">
+                <img
+                  src="https://phongnhaexplorer.com/wp-content/uploads/2021/08/don-quang-ngai-c.jpg"
+                  alt="Don"
+              /></a>
+              <span>
+                <i class="fa-regular fa-eye"></i>
+              </span>
+
+              <h3 class="food-name">
+                <a href="./dac-san/dac-san1.html">Don</a>
+              </h3>
+            </li>
+            <li class="card-item">
+              <a href="./dac-san/dac-san2.html"
+                ><img
+                  src="https://tiemxuquang.com/wp-content/uploads/2021/06/f3a02c7377c732e23bd5c8dda33a76a9-1.jpg"
+                  alt="Bánh xèo"
+              /></a>
+              <span>
+                <i class="fa-regular fa-eye"></i>
+              </span>
+              <h3 class="food-name">Bánh xèo</h3>
+            </li>
+            <li class="card-item">
+              <a href="./dac-san/dac-san3.html">
+                <img
+                  src="https://cdn.topquangngai.vn/wp-content/uploads/2020/12/ca-bong-song-Tra-5.jpg"
+                  alt="cá bống sông Trà"
+              /></a>
+              <span>
+                <i class="fa-regular fa-eye"></i>
+              </span>
+              <h3 class="food-name">Cá bống sông Trà</h3>
+            </li>
+            <li class="card-item">
+              <a href="./dac-san/dac-san4.html"
+                ><img
+                  src="https://cdn.topquangngai.vn/wp-content/uploads/2020/12/ram-bap-Quang-Ngai-5.jpg"
+                  alt="Ram Bắp"
+              /></a>
+              <span>
+                <i class="fa-regular fa-eye"></i>
+              </span>
+              <h3 class="food-name">Ram Bắp</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <div class="content">
+        <div class="row">
+          <div class="colum">
+            <img src="./assets/img/logo.svg" alt="Quảng Ngãi" class="logo" />
+            <p class="desc">
+              Bạn sẽ không mất bất kỳ chi phí vé tham quan nào khi đi du lịch
+              đảo Lý Sơn Quảng Ngãi. Vì vậy, bạn hoàn toàn có thể thích đến hay
+              đi lúc nào cũng được.
+            </p>
+            <div class="socials">
+              <a href="#!">
+                <img src="./assets/img/twitter-icon.svg" alt="" class="icon" />
+              </a>
+              <a href="#!">
+                <img src="./assets/img/facebook-icon.svg" alt="" class="icon" />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/img/linked_in-icon.svg"
+                  alt=""
+                  class="icon"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/img/instagram-icon.svg"
+                  alt=""
+                  class="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="colum">
+            <h3 class="footer-title">Information</h3>
+            <ul class="list">
+              <li>
+                <a href="#!"><strong>Họ tên: </strong>Cao Nhật Linh</a>
+              </li>
+              <li>
+                <a href="#!"><strong>MSSV: </strong>2001215911</a>
+              </li>
+              <li>
+                <a href="#!"><strong>Lớp học: </strong>12DHTH17</a>
+              </li>
+              <li>
+                <a href="#!"><strong>Ca học: </strong>Chiều thứ 4</a>
+              </li>
+            </ul>
+          </div>
+          <div class="colum">
+            <h3 class="footer-title">Support</h3>
+            <ul class="list">
+              <li>
+                <a href="#!">About US</a>
+              </li>
+              <li>
+                <a href="/contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="mailto:caonhatlinh4@gmail.com"
+                  ><strong>Email: </strong>caonhatlinh4@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:0386015537"><strong>Phone: </strong>0386015537</a>
+              </li>
+            </ul>
+          </div>
+          <div class="colum">
+            <h3 class="footer-title">Address</h3>
+            <ul class="list">
+              <li>
+                <a href="#!">
+                  <strong>Location:</strong> 295 Tây Thạnh, Tây Thạnh, Tân Phú,
+                  TP.Hồ chí Minh</a
+                >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0063318955517!2d106.61866194961374!3d10.810826392260376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be68e63a60b%3A0x3082da2ea8071ce8!2zMjk1IFTDonkgVGjhuqFuaCwgVMOibiBQaMO6LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1678382709326!5m2!1svi!2s"
+                  width="240"
+                  height="150"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Website design by Cao Nhật Linh</p>
         </div>
       </div>
     </div>

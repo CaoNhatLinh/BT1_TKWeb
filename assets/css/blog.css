@@ -1,0 +1,91 @@
+.header-fixed {
+  position: fixed;
+  backdrop-filter: blur(30px);
+  background-color: rgba(251, 55, 11, 0.863);
+  top: 0px;
+  width: 100%;
+  left: 0;
+  padding: 20px 0;
+  z-index: 1;
+}
+
+::selection {
+  background-color: rgb(116, 101, 216);
+  color: #fff;
+}
+.blog {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 72px;
+  margin-bottom: 150px;
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+}
+h1.title {
+  color: rgb(226, 121, 0);
+  text-align: center;
+  line-height: 1.4;
+  font-size: 5.2rem;
+  letter-spacing: 1.2px;
+  counter-reset: first;
+  padding: 32px;
+}
+
+h2.title {
+  margin-top: 32px;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  counter-reset: second;
+  counter-increment: number;
+  content: counter(number);
+}
+
+h3.title {
+  margin-top: 32px;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  counter-reset: third;
+}
+h2.title:before {
+  counter-increment: first;
+  content: counter(first, upper-roman) ". ";
+}
+
+h3.title:before {
+  counter-increment: second;
+  content: counter(first) "." counter(second) "  ";
+}
+
+.blog p {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.blog figure {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.blog figure img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.blog figure figcaption {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+.blog ul {
+  margin: 20px;
+  list-style: inside;
+}
+
+.blog ul li {
+  margin-top: 10px;
+  margin-left: 30px;
+}
