@@ -329,7 +329,6 @@ input[name="slider"] ~ .cards label a {
     #15639c 51%,
     #29506c 100%
   );
-  pointer-events: none;
 }
 
 #s1:checked ~ .cards #slide3,
