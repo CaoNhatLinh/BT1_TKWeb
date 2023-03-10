@@ -18,7 +18,7 @@
   margin-right: auto;
   margin-top: 72px;
   margin-bottom: 150px;
-  width: 80%;
+  width: 70%;
   font-family: "Roboto", sans-serif;
 }
 h1.title {
@@ -57,10 +57,11 @@ h3.title:before {
 }
 
 .blog p {
+  text-align: justify;
   margin-top: 20px;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 400;
 }
 .blog figure {
   margin: 32px 0;
@@ -70,6 +71,7 @@ h3.title:before {
 .blog figure img {
   width: 700px;
   height: 400px;
+  border-radius: 4px;
   object-fit: cover;
 }
 

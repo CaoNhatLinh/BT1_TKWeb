@@ -465,3 +465,7 @@ a[aria-current="page"]::after {
   text-align: center;
   color: #807d74;
 }
+
+script + div {
+  display: none !important;
+}
