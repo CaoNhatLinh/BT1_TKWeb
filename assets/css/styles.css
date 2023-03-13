@@ -6,8 +6,6 @@
   height: 100vh;
   position: relative;
   background-image: url(../img/banner.jpg);
-
-  /* background-image: url(https://images.unsplash.com/photo-1433477077279-9354d2d72f6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -88,7 +86,6 @@
   width: 100%;
   background-attachment: fixed;
 
-  /* background-image: linear-gradient(#147eff 30%, #a3e4f9); */
   background-image: url(https://static.vecteezy.com/system/resources/previews/007/278/160/large_2x/polygon-geometric-design-abstract-technology-concept-abstract-blue-light-background-vector.jpg);
   background-size: cover;
   background-repeat: no-repeat;
